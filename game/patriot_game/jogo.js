@@ -151,11 +151,11 @@ let pontos = 0;
 function calcularPontos(){
   if (player.y + 100 < ball.y) {
     pontosOponent = pontosOponent + 1;
-    posicoeesIniciais();
+    posicoesIniciais();
   }
   if(oponente.y - 100 > ball.y) {
     pontos = pontos + 1;
-    posicoeesIniciais();
+    posicoesIniciais();
   }
   document.getElementById("player").textContent = pontos;
   document.getElementById("oponente").textContent = pontosOponent;
