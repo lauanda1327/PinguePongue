@@ -39,14 +39,18 @@
 }
 /*===logomarca===*/
 .logo{
-	font-size: 1.8rem;
 	color: white;
-	font-weight: 400;
-	margin-left: 10px;
-	cursor: default;
+	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+	background-color: #FF9035;
+	width: 40px;
+	cursor: pointer;
+	font-size: 1.6rem;
+	font-weight: 300;
+	height: 40px;
+	margin: 10px;
 }
-.logo span{
-	color: #FF9035;
+.logo img{
+	width: 36px;
 }
 /*=======pontos=====*/
 #pontos{
