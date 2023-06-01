@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ept-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lauanda Nobre">
+    <title>tarantulla</title>
+</head>
+<body>
+    <main>
+        <div class="div1">
+            <h2>Sorry...</h2>
+            <p>O jogo não está disponivel para dispositivos Touch. Apenas pode ser acessado por meio de um dispositivo Desktop</p>
+            <button><a href="https://github.com/lauanda1327/PinguePongue">Voltar</a></button>
+        </div>
+        <div class="div2">
+            <h1>T</h1>
+        </div>
+    </main>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background-color: #28c16f;
+        }
+        h1{
+            font-size: 5rem;
+        }
+        main{
+            display: flex;
+            width: 100vw;
+            height: 80vh;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap-reverse;
+        }
+        button{
+            margin-top: 22px;
+            border: none;
+            margin-left: 10px;
+        }
+        a{ 
+            border-radius: 8px;
+            background-color: #1c693f;
+            padding: 12px 18px;
+            color: antiquewhite;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        a:hover{
+            transition: 0.6s;
+            background-color: #037538;
+        }
+        p{
+            font-size: 1.2rem;
+            max-width: 500px;
+        }
+        @media (max-width: 600px){
+            p{
+                font-size: 1.6rem;
+                max-width: 500px;
+            }
+            a{ 
+                background-color: #1c693f;
+                padding: 2px;
+                color: antiquewhite;
+                font-weight: 600;
+                font-size: 1.6rem;
+                position: absolute;
+                bottom: 0;
+                border-radius: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100vw;
+                height:10vh;
+            }
+            button{
+                margin: 0;
+            }
+            h2{
+                font-size: 1.8rem;
+            }
+        }
+        
+        h2,p{
+            color:#1c693f;
+            margin: 10px;
+        }
+    </style>
+</body>
+</html>
